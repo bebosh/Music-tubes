@@ -1,0 +1,302 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+
+.ToggleSemi {
+  margin: 5px;
+  width: 5em;
+  color: white;
+  text-align: center;
+  padding-top: 10px;
+  font-size: 0.7em;
+  font-style: italic;
+  border-radius: 10px;
+  -moz-box-shadow: 0px 0px 3px #ccc;
+  -webkit-box-shadow: 0px 0px 3px #ccc;
+  box-shadow: 0px 1px 10px 1px #333;
+  background: #333;
+  width: 8em;
+  font-size: 1em;
+  padding: auto;
+}
+
+.wrap-main {
+  display: block;
+  width: 100%;
+}
+
+.wrap_mag {
+  width: 60%;
+  height: 20em;
+  display: flex;
+  background: #ccc;
+  background: linear-gradient(#ccc, #fff);
+}
+
+.wrap_min {
+  width: 60%;
+  height: 20em;
+  display: flex;
+  background: #aaa;
+  background: linear-gradient(#aaa, #ccc);
+}
+
+.DOmin {
+  margin: 5px;
+  width: 5em;
+  color: white;
+  text-align: center;
+  padding-top: 10px;
+  font-size: 0.7em;
+  font-style: italic;
+  border-radius: 10px;
+  -moz-box-shadow: 0px 0px 3px #ccc;
+  -webkit-box-shadow: 0px 0px 3px #ccc;
+  box-shadow: 0px 1px 10px 1px #333;
+  margin-top: 35px;
+  height: 275px;
+  background: red;
+  background: linear-gradient(to bottom right, red, #ff8566);
+}
+
+.DO_RE {
+  margin: 5px;
+  width: 5em;
+  color: white;
+  text-align: center;
+  padding-top: 10px;
+  font-size: 0.7em;
+  font-style: italic;
+  border-radius: 10px;
+  -moz-box-shadow: 0px 0px 3px #ccc;
+  -webkit-box-shadow: 0px 0px 3px #ccc;
+  box-shadow: 0px 1px 10px 1px #333;
+  margin-top: 50px;
+  height: 260px;
+  background: #ff8566;
+}
+
+.RE {
+  margin: 5px;
+  width: 5em;
+  color: white;
+  text-align: center;
+  padding-top: 10px;
+  font-size: 0.7em;
+  font-style: italic;
+  border-radius: 10px;
+  -moz-box-shadow: 0px 0px 3px #ccc;
+  -webkit-box-shadow: 0px 0px 3px #ccc;
+  box-shadow: 0px 1px 10px 1px #333;
+  margin-top: 60px;
+  height: 250px;
+  background: orange;
+  background: linear-gradient(to bottom right, #e65c00, #ff944d);
+}
+
+.RE_MI {
+  margin: 5px;
+  width: 5em;
+  color: white;
+  text-align: center;
+  padding-top: 10px;
+  font-size: 0.7em;
+  font-style: italic;
+  border-radius: 10px;
+  -moz-box-shadow: 0px 0px 3px #ccc;
+  -webkit-box-shadow: 0px 0px 3px #ccc;
+  box-shadow: 0px 1px 10px 1px #333;
+  margin-top: 70px;
+  height: 240px;
+  background: #ffbb33;
+}
+
+.MI {
+  margin: 5px;
+  width: 5em;
+  color: white;
+  text-align: center;
+  padding-top: 10px;
+  font-size: 0.7em;
+  font-style: italic;
+  border-radius: 10px;
+  -moz-box-shadow: 0px 0px 3px #ccc;
+  -webkit-box-shadow: 0px 0px 3px #ccc;
+  box-shadow: 0px 1px 10px 1px #333;
+  margin-top: 85px;
+  height: 225px;
+  background: #ffbb33;
+  background: linear-gradient(to bottom right, #ffbb33, #ffd480);
+}
+
+.FA {
+  margin: 5px;
+  width: 5em;
+  color: white;
+  text-align: center;
+  padding-top: 10px;
+  font-size: 0.7em;
+  font-style: italic;
+  border-radius: 10px;
+  -moz-box-shadow: 0px 0px 3px #ccc;
+  -webkit-box-shadow: 0px 0px 3px #ccc;
+  box-shadow: 0px 1px 10px 1px #333;
+  margin-top: 110px;
+  height: 200px;
+  background: #00cc00;
+  background: linear-gradient(to bottom right, #00cc00, #00ff00);
+}
+
+.FA_SOL {
+  margin: 5px;
+  width: 5em;
+  color: white;
+  text-align: center;
+  padding-top: 10px;
+  font-size: 0.7em;
+  font-style: italic;
+  border-radius: 10px;
+  -moz-box-shadow: 0px 0px 3px #ccc;
+  -webkit-box-shadow: 0px 0px 3px #ccc;
+  box-shadow: 0px 1px 10px 1px #333;
+  margin-top: 120px;
+  height: 190px;
+  background: #00dd00;
+}
+
+.SOL {
+  margin: 5px;
+  width: 5em;
+  color: white;
+  text-align: center;
+  padding-top: 10px;
+  font-size: 0.7em;
+  font-style: italic;
+  border-radius: 10px;
+  -moz-box-shadow: 0px 0px 3px #ccc;
+  -webkit-box-shadow: 0px 0px 3px #ccc;
+  box-shadow: 0px 1px 10px 1px #333;
+  margin-top: 135px;
+  height: 175px;
+  background-color: #006600;
+  background: linear-gradient(to bottom right, #006600, #009900);
+}
+
+.SOL_LA {
+  margin: 5px;
+  width: 5em;
+  color: white;
+  text-align: center;
+  padding-top: 10px;
+  font-size: 0.7em;
+  font-style: italic;
+  border-radius: 10px;
+  -moz-box-shadow: 0px 0px 3px #ccc;
+  -webkit-box-shadow: 0px 0px 3px #ccc;
+  box-shadow: 0px 1px 10px 1px #333;
+  margin-top: 145px;
+  height: 165px;
+  background-color: #009900;
+}
+
+.LA {
+  margin: 5px;
+  width: 5em;
+  color: white;
+  text-align: center;
+  padding-top: 10px;
+  font-size: 0.7em;
+  font-style: italic;
+  border-radius: 10px;
+  -moz-box-shadow: 0px 0px 3px #ccc;
+  -webkit-box-shadow: 0px 0px 3px #ccc;
+  box-shadow: 0px 1px 10px 1px #333;
+  margin-top: 160px;
+  height: 150px;
+  background-color: #2e2eb8;
+  background: linear-gradient(to bottom right, #2e2eb8, #5c5cd6);
+}
+
+.LA_SI {
+  margin: 5px;
+  width: 5em;
+  color: white;
+  text-align: center;
+  padding-top: 10px;
+  font-size: 0.7em;
+  font-style: italic;
+  border-radius: 10px;
+  -moz-box-shadow: 0px 0px 3px #ccc;
+  -webkit-box-shadow: 0px 0px 3px #ccc;
+  box-shadow: 0px 1px 10px 1px #333;
+  margin-top: 170px;
+  height: 140px;
+  background-color: #5c7dd6;
+}
+
+.SI {
+  margin: 5px;
+  width: 5em;
+  color: white;
+  text-align: center;
+  padding-top: 10px;
+  font-size: 0.7em;
+  font-style: italic;
+  border-radius: 10px;
+  -moz-box-shadow: 0px 0px 3px #ccc;
+  -webkit-box-shadow: 0px 0px 3px #ccc;
+  box-shadow: 0px 1px 10px 1px #333;
+  margin-top: 185px;
+  height: 125px;
+  background-color: #cc0099;
+  background: linear-gradient(to bottom right, #cc0099, #cc0099);
+}
+
+.DOmag {
+  margin: 5px;
+  width: 5em;
+  color: white;
+  text-align: center;
+  padding-top: 10px;
+  font-size: 0.7em;
+  font-style: italic;
+  border-radius: 10px;
+  -moz-box-shadow: 0px 0px 3px #ccc;
+  -webkit-box-shadow: 0px 0px 3px #ccc;
+  box-shadow: 0px 1px 10px 1px #333;
+  margin-top: 210px;
+  height: 100px;
+  background-color: #ff0000;
+  background: linear-gradient(to bottom right, red, #ff8566);
+}
+
+.button {
+  display: inline-block;
+  font-size: 18px;
+  color: #2f70e1;
+  padding: 10px 30px;
+  margin-right: 10px;
+  margin-bottom: 30px;
+  box-shadow: 0px 1px 3px 0px rgba(0, 0, 0, 0.3);
+  cursor: pointer;
+}
+
+.OFF {
+  display: none;
+}
+
+/*-------------------------------  Track recorder   --------------------------------------*/
+.track_wrap {
+  height: 5em;
+  width: 50%;
+  background: #777;
+}
+
+.metronome {
+  height: 5em;
+  width: 40%;
+  background: #999;
+}
+/*# sourceMappingURL=index.css.map */
